@@ -1,0 +1,25 @@
+{
+  "author": "Veljko Dragšić",
+  "name": "ave55serial",
+  "description": "Panasonic WJ-AVE55 RS232 control",
+  "version": "0.0.1",
+  "repository": {
+    "url": "http://github.com/vdragsic/ave55serial"
+  },
+  "main": "./lib/ave55serial",
+  "keywords": [
+    "wj-ave55",
+    "panasonic",
+    "rs232",
+    "serial"
+  ],
+  "bin": {
+    "ave55serial": "./bin/ave55serial"
+  },
+  "dependencies": {
+    "serialport": ">=1.4.0"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
